@@ -6,12 +6,12 @@
    <elementGuidId>db178af8-81d5-45dd-8294-6d36d8827651</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='tbodyid']/div/div/div/h4/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@href = 'prod.html?idp_=1' and (text() = 'Samsung galaxy s6' or . = 'Samsung galaxy s6')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tbodyid']/div/div/div/h4/a</value>
       </entry>
       <entry>
          <key>CSS</key>

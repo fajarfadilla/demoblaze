@@ -23,3 +23,9 @@ WebUI.navigateToUrl('https://www.demoblaze.com/')
 
 WebUI.click(findTestObject('Object Repository/categories/a_Laptops'))
 
+WebUI.waitForElementPresent(findTestObject('product/Link - ProductTittle'), 3)
+
+WebUI.verifyElementText(findTestObject('product/Link - ProductTittle'), 'Sony vaio i5')
+
+WebUI.closeBrowser()
+

@@ -21,21 +21,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.demoblaze.com/')
 
-WebUI.waitForElementPresent(findTestObject('order/Link - ProductTittle'), 3)
+WebUI.waitForElementPresent(findTestObject('product/Link - ProductTittle'), 3)
 
-WebUI.verifyElementText(findTestObject('order/Link - ProductTittle'), 'Samsung galaxy s6')
+WebUI.verifyElementText(findTestObject('product/Link - ProductTittle'), 'Samsung galaxy s6')
 
 WebUI.click(findTestObject('Object Repository/categories/button_Next'))
 
-WebUI.waitForElementPresent(findTestObject('order/Link - ProductTittle'), 3)
+WebUI.waitForElementPresent(findTestObject('product/Link - ProductTittle'), 3)
 
-WebUI.verifyElementText(findTestObject('order/Link - ProductTittle'), 'Apple monitor 24')
+WebUI.verifyElementText(findTestObject('product/Link - ProductTittle'), 'Apple monitor 24')
 
 WebUI.click(findTestObject('Object Repository/categories/button_Previous'))
 
-WebUI.waitForElementPresent(findTestObject('order/Link - ProductTittle'), 3)
+WebUI.waitForElementPresent(findTestObject('product/Link - ProductTittle'), 3)
 
-WebUI.verifyElementText(findTestObject('order/Link - ProductTittle'), 'Nokia lumia 1520')
+WebUI.verifyElementText(findTestObject('product/Link - ProductTittle'), 'Nokia lumia 1520')
 
 WebUI.closeBrowser()
 
