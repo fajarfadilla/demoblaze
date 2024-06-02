@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As user, i cannot register an account already exist</description>
+   <name>RegisterUser - already exists</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>237c99a6-0880-487c-ba7c-aba8e23e6a21</testCaseGuid>
+</TestCaseEntity>

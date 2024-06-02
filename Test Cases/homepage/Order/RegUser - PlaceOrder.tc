@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RegUser - PlaceOrder</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3b070c52-1f81-4c1b-8cc0-8bfcfbdf0b64</testCaseGuid>
+</TestCaseEntity>

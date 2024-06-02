@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As user, i cannot register with empty username</description>
+   <name>RegisterUser - empty username</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b2a22f83-9c78-4531-97b2-654db1515cd4</testCaseGuid>
+</TestCaseEntity>

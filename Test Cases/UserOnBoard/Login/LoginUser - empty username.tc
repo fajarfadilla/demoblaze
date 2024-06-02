@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As user, i cannot login with empty username</description>
+   <name>LoginUser - empty username</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7dbccedc-89c4-46fe-b648-8de4c38fd090</testCaseGuid>
+</TestCaseEntity>

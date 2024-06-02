@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As user, i cannot login with unregistered user</description>
+   <name>LoginUser - User doesnt exists</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>05ee9796-8490-47e0-bf38-c4c7f274a447</testCaseGuid>
+</TestCaseEntity>
