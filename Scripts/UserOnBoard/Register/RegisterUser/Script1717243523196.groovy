@@ -16,6 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.security.SecureRandom;
+
+SecureRandom secureRandom = new SecureRandom();
+int secureRandomNumber = secureRandom.nextInt(1000); // Generates a random number between 0 and 99
+
+String username = 'boost' + secureRandomNumber
+
+println(username)
 
 WebUI.openBrowser('')
 
@@ -25,7 +33,7 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/UserOnboard/a_Sign up'))
 
-WebUI.setText(findTestObject('Object Repository/UserOnboard/input_Username_sign-username'), 'boosst12344')
+WebUI.setText(findTestObject('Object Repository/UserOnboard/input_Username_sign-username'), username)
 
 WebUI.setText(findTestObject('UserOnboard/input_Password_sign-password'), 'test')
 
