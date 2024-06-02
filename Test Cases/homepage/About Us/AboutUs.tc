@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Next Banner</name>
+   <name>AboutUs</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>99aa9443-b50c-4531-a972-635cec0a03d1</testCaseGuid>
+   <testCaseGuid>6ef12e5f-11bc-457f-af85-8ee7ddc0f0bb</testCaseGuid>
 </TestCaseEntity>

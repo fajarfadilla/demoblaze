@@ -21,15 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.demoblaze.com/')
 
-WebUI.click(findTestObject('Object Repository/contact/a_Contact'))
+WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/contact/input_Contact Email_recipient-email'), 'test123@gmail.com')
+WebUI.click(findTestObject('Object Repository/aboutUs/a_About us'))
 
-WebUI.setText(findTestObject('Object Repository/contact/input_Contact Name_recipient-name'), 'test')
+WebUI.click(findTestObject('Object Repository/aboutUs/h5_About us'))
 
-WebUI.setText(findTestObject('Object Repository/contact/textarea_Message_message-text'), 'haloo test')
+WebUI.verifyElementText(findTestObject('aboutUs/h5_About us'), 'About us')
 
-WebUI.click(findTestObject('Object Repository/contact/button_Send message'))
+WebUI.verifyElementPresent(findTestObject('aboutUs/div_About us_vjs-poster'), 3)
+
+WebUI.click(findTestObject('Object Repository/aboutUs/button_Close'))
+
+WebUI.verifyElementPresent(findTestObject('a_Home (current)'), 3)
 
 WebUI.closeBrowser()
 
