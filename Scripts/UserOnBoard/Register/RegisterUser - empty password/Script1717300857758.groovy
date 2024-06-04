@@ -25,9 +25,9 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/UserOnboard/a_Sign up'))
 
-WebUI.setText(findTestObject('Object Repository/UserOnboard/input_Username_sign-username'), 'boosst123')
+WebUI.setText(findTestObject('Object Repository/UserOnboard/input_Username_sign-username'), '')
 
-WebUI.setText(findTestObject('UserOnboard/input_Password_sign-password'), 'test')
+WebUI.setText(findTestObject('UserOnboard/input_Password_sign-password'), '')
 
 WebUI.click(findTestObject('Object Repository/UserOnboard/button_Sign up'))
 
